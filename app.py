@@ -15,5 +15,9 @@ def serv():
 def reg():
     return render_template("reg.html")
 
+@app.route("/services")
+def ser2():
+    return render_template("services2.html")
+
 if __name__ == "__main__":
     app.run(debug=True)
